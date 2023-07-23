@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import pickle
 
 def train():
-    df=pd.read_csv('/Users/ashutosh.maurya/Downloads/diabetes_data_upload.csv')
+    df=pd.read_csv('data.csv')
     df = df.rename(columns={'sudden weight loss': 'sudden_weight_loss', 'Genital thrush': 'Genital_thrush','visual blurring':'visual_blurring','delayed healing':'delayed_healing','partial paresis':'partial_paresis','muscle stiffness':'muscle_stiffness'})
 
     label=df[['class']]
