@@ -1,0 +1,8 @@
+sklearn
+pandas
+pydantic
+typing
+numpy
+uvicorn
+fastapi
+pickle
