@@ -40,7 +40,7 @@ async def Train():
 async def Predict(item:DiabetesData):
     global x
     x=predict(pd.DataFrame([dict(item)]))
-    print('#####################',x)
+
     return x
 
 if __name__ == '__main__':
