@@ -30,7 +30,7 @@ class DiabetesData(BaseModel):
     
     
     
-@app.post('/train/')
+@app.get('/train/')
 async def Train():
     
     result = train()
